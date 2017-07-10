@@ -15,4 +15,8 @@ module ApplicationHelper
        content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+  def copyright_generator
+    FraryDevcampViewTool::Renderer.copyright 'Olivia Frary', 'All rights reserved'
+  end
 end
