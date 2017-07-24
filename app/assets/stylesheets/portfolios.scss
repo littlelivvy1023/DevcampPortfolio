@@ -4,16 +4,8 @@ body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
 
-.bg-inverse {
-  background-color: #292b2c;
-}
-
 .navbar {
   margin-bottom: 0;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='buttonface' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .jumbotron {
@@ -65,4 +57,18 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+// custom styles 
+
+.bg-inverse {
+  background-color: #292b2c;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='buttonface' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.portfolio-form {
+  padding: 20px;
 }
