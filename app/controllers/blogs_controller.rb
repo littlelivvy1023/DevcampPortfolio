@@ -11,7 +11,7 @@ class BlogsController < ApplicationController
       @blogs = Blog.recent.page(params[:page]).per(5)
     else
       @blogs = Blog.published.recent.page(params[:page]).per(5)
-    end      
+    end
   end
 
   # GET /blogs/1
